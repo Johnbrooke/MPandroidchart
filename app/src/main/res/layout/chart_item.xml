@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_linechart"
+            android:text="线性图表"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="#8CEBFF"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_barchart"
+            android:text="柱状图"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="#8CEBFF"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_horizontalchart"
+        android:text="水平柱状图"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#C5FF8C"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_combinedchart"
+        android:text="混合图表"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_piechart"
+        android:text="饼图"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_scatterchart"
+        android:text="散列图"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_candlechart"
+        android:text="蜡烛图"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_radarchart"
+        android:text="雷达海图"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
